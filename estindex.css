@@ -1,6 +1,5 @@
 body{
-			background-image: url('img/fondo_2.jpg');
-			background-size: cover; 
+  background-image: linear-gradient(to right, red , blue);
 }
 
 footer{
@@ -9,4 +8,39 @@ footer{
 }
 .parra{
 	color: white;
+}
+.social-bar{
+	position: initial;
+	right: 0;
+	top: 60%;
+	font-size: 5.5rem;
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: flex-end;
+	z-index: 0;
+		justify-content: center;
+	align-items: center;
+}
+
+.icon{
+	color: white;
+	text-decoration: none;
+	padding: .7rem;
+	display: flex;
+	transition: all .5s;
+}
+
+
+
+.icon:first-child{
+	border-radius: 1rem 0 0 0;
+}
+
+.icon:last-child{
+	border-radius: 0 0 0 1rem;
+}
+.icon:hover {
+	padding-right: 3rem;
+	border-radius: 1rem 0 0 1rem;
+	box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
 }
