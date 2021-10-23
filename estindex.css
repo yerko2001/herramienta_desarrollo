@@ -1,0 +1,12 @@
+body{
+			background-image: url('img/fondo_2.jpg');
+			background-size: cover; 
+}
+
+footer{
+	justify-content: center;
+	align-items: center;
+}
+.parra{
+	color: white;
+}
