@@ -1,0 +1,8 @@
+body{
+  background-image: linear-gradient(to right, red , blue);
+}
+
+footer{
+	justify-content: center;
+	align-items: center;
+}
