@@ -1,3 +1,18 @@
 body{
   background-image: linear-gradient(to right, red , blue);
 }
+
+table,tr,th,td{
+
+  border-collapse: collapse;
+  width: 10%;
+  font-size: 15px;
+  color: white;
+
+}
+
+table{
+   width: 100%;
+       justify-content: center;
+  align-items: center;
+}
