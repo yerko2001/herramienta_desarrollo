@@ -16,3 +16,17 @@ table{
        justify-content: center;
   align-items: center;
 }
+
+.socia-bar{
+  justify-content: center;
+  align-items: center;
+}
+
+.icon{
+  color: white;
+  text-decoration: none;
+}
+
+.icon:first-child{
+  border-radius: 1rem 0 0 0;
+}
