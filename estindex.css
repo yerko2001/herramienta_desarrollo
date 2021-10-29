@@ -2,9 +2,50 @@ body{
   background-image: linear-gradient(to right, red , blue);
 }
 
+.grid-container{
+	display: grid;
+	grid-template-columns: 33% 34% 33%;
+	grid-template-rows: 80px 80px;
+	gap: 5px;
+	padding: 100px;
+	background-color: #505050;
+	border-radius: 30px;
+	margin: 10px;
+
+}
+.grid-container > *{
+	display: flex;
+	color: white;
+	border-radius: 30px 0px 30px 0px;;
+
+}
+
 footer{
+	grid-column: 3;
+	grid-row: 1;
+	font-family: Candara;
+	font-size: 20px;
+	border-radius: 30px 0px 30px 0px;
 	justify-content: center;
-	align-items: center;
+	align-items: end;
+	padding: 0px;
+}
+
+.formulario{
+	grid-column: 1 / span 2;
+	grid-row: 1 / span 2;
+	justify-content: center;
+	align-items: center
+}
+
+.formu2{
+	grid-column: 3;
+	grid-row: 2;
+	font-family: Candara;
+	font-size: 20px;
+	border-radius: 30px 0px 30px 0px;
+	justify-content: center;
+	align-items: initial;
 }
 .parra{
 	color: white;
